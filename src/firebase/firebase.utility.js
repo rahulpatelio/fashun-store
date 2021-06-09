@@ -12,6 +12,12 @@ const config = {
   measurementId: "G-R2S9WPW40Z"
 };
 
+export const createUserProfileDocument = async (userAuth, additionalData) => {
+
+  
+
+}
+
 firebase.initializeApp(config);
 
 export const auth = firebase.auth();
